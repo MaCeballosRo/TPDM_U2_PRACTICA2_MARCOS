@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPDM_U2_PRACTICA2_MARCOS</string>
+    <string-array name="tiposSeguro">
+        <item>Casa</item>
+        <item>Auto</item>
+        <item>Médico</item>
+    </string-array>
+</resources>

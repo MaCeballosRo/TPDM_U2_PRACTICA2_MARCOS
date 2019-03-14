@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nuevopropietario" android:title="Agregar Propietario "/>
+    <item android:id="@+id/nuevoseguro" android:title="Agregar Seguro"/>
+    <item android:id="@+id/consultaPropietario" android:title="Consultar Propietarios"/>
+    <item android:id="@+id/modicarEliminarProp" android:title="Modificar/Eliminar Propietario"/>
+</menu>

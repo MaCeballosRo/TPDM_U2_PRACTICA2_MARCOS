@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="ID Seguro:"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/txtIdSeguro"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="Descripción:"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="15dp"
+        android:id="@+id/txtDescripcion"
+        android:layout_marginBottom="10dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="Fecha:"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:hint="AAAA/MM/DD"
+        android:id="@+id/txtFechaS"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo:"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmbTipo"
+        android:entries="@array/tiposSeguro"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono de propietario:"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefonoS"
+        android:textSize="15dp"
+        android:hint="311-345-6789"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textSize="15dp"
+            android:id="@+id/btnInsertarS"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:textSize="15dp"
+            android:id="@+id/btnRegresarS"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
